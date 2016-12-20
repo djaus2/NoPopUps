@@ -1,11 +1,11 @@
--
+/-
 Title: NoPopUps
 Version: 1.0
 Description: This project demonstrates how to have a [Yes] [Cancel] Popup panel with a message with the app awaiting the user response and responding accordingly with Windows 10 IoT-Core. 
 CodeLanguages:  
 Targets: Windows 10, Windows 10 IoT-Core
 Language:  "en-us"
-GitHub: https://github.com/djaus2NoPopUps/
+GitHub: https://github.com/djaus2/NoPopUps/
 HacksterIO: 
 Codeplex: 
 Tags: PopUp, UWP, MessageBox, Accept, Cancel, IoT-Core
