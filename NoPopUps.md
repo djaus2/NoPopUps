@@ -1,11 +1,23 @@
 ---
-layout: docs
 title: NoPopUps
 description: A pattern for implementing PopUp message boxes as a grid element in IoT-Core UWP apps where PopUps aren't supported
 keyword: PopUp, UWP, MessageBox, Accept, Cancel, IoT-Core
 permalink: /en-US/Docs/NoPopUps.htm
-samplelink: https://github.com/ms-iot/samples/NoPopUps/
+samplelink: https://github.com/ms-iot/djaus2NoPopUps/
 lang: en-US
+---
+Title: NoPopUps
+Version: 1.0
+Description: This project demonstrates how to have a [Yes] [Cancel] Popup panel with a message with the app awaiting the user response and responding accordingly with Windows 10 IoT-Core. 
+CodeLanguages:  
+Targets: Windows 10, Windows 10 IoT-Core
+Language:  "en-us"
+GitHub: https://github.com/ms-iot/djaus2NoPopUps/
+HacksterIO: 
+Codeplex: 
+Tags: PopUp, UWP, MessageBox, Accept, Cancel, IoT-Core
+Developers: David Jones
+Blog:  http://embedded101.com/Blogs/David-Jones
 ---
 
 # NoPopUps
@@ -14,9 +26,9 @@ With a UWP UI app you might what a user response in an app to a prompt to delete
 * [Windows 10 PopUp Class](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.primitives.popup.aspx)
 * [IoT-Core Unsupported Classes](https://developer.microsoft.com/en-us/windows/iot/docs/unavailableapis)
 
-The above link says that   **Windows.UI.Popups.MessageDialog** class is not supported but teh whole Windows.UI.PopUps class is problematic with IoT-Core. This UI feature is probably excluded with IOT-Core apps because they may typically run with out much user interaction, or none with the a headless device.
+The above link says that   **Windows.UI.Popups.MessageDialog** class is not supported but the whole Windows.UI.PopUps class is problematic with IoT-Core. This UI feature is probably excluded with IOT-Core apps because they may typically run with out much user interaction, or none with the a headless device.
 
-This project demonstrates how to have a [Yes] [Cancel] Popup panel with a message with the app awaiting the user response and responding accordingly. The project code implements the confirmation message box both using the PopUp class and using the PopUp panel. A project compilation symbol (IOTCORE) determines which mechanism is used. That way the UWP app can run both on the desktop (with expected user interaction - **IOTCORE** _not defined_) and on an IoT-Core device with the PopUp panel (**IOTCORE** _defined_).
+This project demonstrates how to have a [Yes] [Cancel] Popup panel with a message with the app awaiting the user response and responding accordingly with Windows 10 IoT-Core. The project code implements the confirmation message box both using the PopUp class and using the PopUp panel. A project compilation symbol (IOTCORE) determines which mechanism is used. That way the UWP app can run both on the desktop (with expected user interaction - **IOTCORE** _not defined_) and on an IoT-Core device with the PopUp panel (**IOTCORE** _defined_).
 
 ## Load the project in Visual Studio
 
