@@ -1,4 +1,4 @@
-/-
+---
 Title: NoPopUps
 Version: 1.0
 Description: This project demonstrates how to have a [Yes] [Cancel] Popup panel with a message with the app awaiting the user response and responding accordingly with Windows 10 IoT-Core. 
